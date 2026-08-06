@@ -32,3 +32,5 @@ function App() {
 }
 
 export default App
+
+// this is the main entry point for the frontend React application. It sets up the routing for different pages of the application, including the posts list, post details, tools list, writing a post, selling a tool, and authentication views for login and registration. The NavBar component is included in the header, and a tagline is displayed below it. The main content area uses React Router's Routes and Route components to render the appropriate page based on the URL path.
