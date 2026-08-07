@@ -28,7 +28,7 @@ jobs:
 
       - name: Build
         env:
-          VITE_API_URL: http://${{ vars.ALB_DNS_NAME }}
+          VITE_API_URL: ""
         run: npm run build
 
       - uses: actions/upload-artifact@v4
